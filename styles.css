@@ -1,0 +1,68 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f7f7f7; /* Soft gray background */
+    margin: 0;
+    padding: 0;
+}
+
+.resume {
+    max-width: 800px;
+    margin: 40px auto; /* Increased margin for better spacing */
+    background-color: #fff; /* White background */
+    padding: 30px; /* Increased padding for better readability */
+    border-radius: 10px; /* Rounded corners for a softer look */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Deeper shadow for depth */
+}
+
+img {
+    max-width: 180px; /* Increased image size for better visibility */
+    border-radius: 50%;
+    border: 5px solid #fff; /* White border for a clean look */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+h1, h2 {
+    color: #337ab7; /* Deep blue color for headings */
+    font-weight: bold;
+    margin-bottom: 10px; /* Increased margin for better spacing */
+}
+
+h1 {
+    font-size: 24px; /* Increased font size for better readability */
+}
+
+h2 {
+    font-size: 18px; /* Increased font size for better readability */
+}
+
+.resume-header {
+    background-color: #337ab7; /* Deep blue background for header */
+    padding: 20px;
+    border-bottom: 1px solid #ddd; /* Light gray border for separation */
+}
+
+.resume-header h1 {
+    color: #fff; /* White text for header */
+}
+
+.resume-section {
+    margin-bottom: 20px; /* Increased margin for better spacing */
+}
+
+.resume-section h2 {
+    margin-top: 0; /* Removed margin for better spacing */
+}
+
+@media (max-width: 600px) {
+    .resume {
+        padding: 20px; /* Increased padding for better readability */
+    }
+
+    img {
+        max-width: 120px; /* Decreased image size for smaller screens */
+    }
+
+    h1, h2 {
+        font-size: 18px; /* Decreased font size for smaller screens */
+    }
+}
